@@ -1,0 +1,31 @@
+#carouselId{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.carousel-image{
+    width: 100%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    background-color: rgba(0,123,255,.9);
+}
+
+.about-me{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.social-icons{
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 90%
+}
