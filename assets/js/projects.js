@@ -4,7 +4,7 @@ var projects = [{
         "image": "assets/images/olympics.gif",
         "technologies": "",
         "id": 1,
-        "description":"Desktop Hangman with 2020 Summer Olympic Theme"
+        "description":"Hangman with 2020 Summer Olympic Theme"
 
     },
     {
