@@ -40,6 +40,13 @@
             "image": "assets/images/trivia.png",
             "technologies": ""
 
+        },
+        {
+            "name": "LIRI Node App",
+            "link": "https://github.com/stmu009/liri-node-app",
+            "image": "assets/images/c3po.png",
+            "technologies": ""
+
         }
     ]
 }
