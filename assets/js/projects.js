@@ -54,6 +54,15 @@ var projects = [{
         "id": 6,
         "description":"A trivia game with many features such as chat, high scores, random background, random gifs, and a soundcloud player"
 
+    },
+    {
+        "name": "LIRI Node App",
+        "link": "https://github.com/stmu009/liri-node-app",
+        "image": "assets/images/c3po.jpg",
+        "technologies": "",
+        "id":7,
+        "description":"A language interpretation recognition interface. LIRI is a cli app that can give you data for a song, movie, or your last 20 tweets."
+
     }
 ]
 
