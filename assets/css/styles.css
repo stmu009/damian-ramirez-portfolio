@@ -9,7 +9,7 @@ span.carousel-control-prev-icon {
 }
 .carousel-control-next {
     top: 40px;
-    left: 0;
+    right: 0;
     background-color: lightblue;
 }
 span.carousel-control-next-icon {
