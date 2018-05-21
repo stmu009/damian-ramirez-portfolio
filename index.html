@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
@@ -26,34 +27,80 @@
             </p>
         </div>
     </div>
-    <!-- about -->
-
-    <!-- timeline -->
-    <!-- portfolio -->
-    <!-- experience -->
-
-    <!-- connect -->
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Connect with Me</h4>
-            <hr>
+        <!-- portfolio -->
+    <!-- begin carousel -->
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <h4 class="card-title">Bootcamp Projects</h4>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
         </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- end carousel -->
+    
+    <!-- about -->
+    <div class="card text-white bg-primary about-me">
+        <img class="card-img-top" src="" alt="">
         <div class="card-body">
-            <a href="https://github.com/stmu009" class="card-link">
-                <img alt="github" class="social-icons" src="assets/images/github.png">
-            </a>
-            <a href="https://www.linkedin.com/in/damianlinkedin/" class="card-link">
-                <img alt="linkedin" class="social-icons" src="assets/images/linkedin.png">
-            </a>
-            <a href="https://stackexchange.com/users/2807365/damian-ramirez" class="card-link">
-                <img alt="stackoverflow" class="social-icons" src="assets/images/stackoverflow.png">
-            </a>
+            <h4 class="card-title">About Me</h4>
+            <p class="card-text">
+                10+ years in software development. My first taste in programming was over 20 years ago in elementary school when I picked up an Algebra book
+                and it contained some small BASIC code snippets. I plugged them into my computer and they worked! I continuously
+                filled my curiousity and learned more and more about computers and software. I was soon considered the computer
+                expert on our block.
+            </p>
+            <p class="card-text">
+                That title followed me into college where I received my Bachelor of Science in Mathematics with minors in Computer Science
+                and English. In my senior year, our team won an award for our educational math game written in flash.
+            </p>
+            <p class="card-text">
+                After graduating, I turned down a few technical support positions because I knew I wanted to write code. Luckily, I was soon
+                hired at UniFocus working on paper and online surveys. For the paper surveys, I used OCR technogly and C++
+                to import the data and SQL Server to query the results. For the online surveys, I used HTML, CSS, and a touch
+                of JS to generate the surveys. Throughout my time at UniFocus, I worked on various other projects including
+                testing .Net projects, building dashboards with Flex, and eventually leading our small Business Intelligence
+                team which used a combination of technologies such as SQL Server, Cognos, and BIRT.
+            </p>
+            <p class="card-text">
+                After 8 years at UniFocus, I moved onto a new position at Petmate as an Applications Developer. At Petmate, I have worked
+                on a large number of projects including Oracle reports, eCommerce, and various one-off projects. Some of
+                the one-off projects are sweepstakes pages, a store locator service, and a service to retrieve profiles.
+            </p>
+            <p class="card-text">
+                I am currently attending an intensive 6 month boot camp dedicated to designing and building full-stack web applications at
+                SMU. Skills learned consist of HTML5, CSS3, JavaScript, jQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB,
+                Express, Nightmare.JS, and React Js.
+            </p>
         </div>
     </div>
 
+
+
     <!-- footer -->
     <footer>
-        © Copyright <span id="current-year">2018</span> Damian Ramirez
+        © Copyright
+        <span id="current-year">2018</span> Damian Ramirez
+        <br>
+        <a href="https://github.com/stmu009" class="card-link">
+            <img alt="github" class="social-icons" src="assets/images/github.png">
+        </a>
+        <a href="https://www.linkedin.com/in/damianlinkedin/" class="card-link">
+            <img alt="linkedin" class="social-icons" src="assets/images/linkedin.png">
+        </a>
+        <a href="https://stackexchange.com/users/2807365/damian-ramirez" class="card-link">
+            <img alt="stackoverflow" class="social-icons" src="assets/images/stackoverflow.png">
+        </a>
     </footer>
 
     <!-- Optional JavaScript -->
@@ -65,6 +112,7 @@
         crossorigin="anonymous"></script>
     <!-- Local JS -->
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/projects.js"></script>
 </body>
 
 </html>

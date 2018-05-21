@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .carousel-control-prev {
     top: 40px;
     left: 0;
@@ -27,4 +28,36 @@ span.carousel-control-next-icon {
     width: 80%;
     margin: 0 auto;
     margin-top: 2rem;
+=======
+#carouselId{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.carousel-image{
+    width: 100%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    background-color: rgba(0,123,255,.9);
+}
+
+.about-me{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.social-icons{
+    width: 2rem;
+    margin-top: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 90%
+>>>>>>> 870a6639e27ee8d94f276715ce98015728c1d8b7
 }
