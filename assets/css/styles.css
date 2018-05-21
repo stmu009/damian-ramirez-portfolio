@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .carousel-control-prev {
     top: 40px;
     left: 0;
@@ -18,19 +17,8 @@ span.carousel-control-next-icon {
     height: 4rem;
 }
 
-
-.about-me {
-    width: 84%;
-    margin: 0 auto;
-}
-
-#carouselId {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 2rem;
-=======
 #carouselId{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -46,7 +34,7 @@ span.carousel-control-next-icon {
 }
 
 .about-me{
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
 }
 
@@ -59,5 +47,4 @@ footer{
     margin-top: 2rem;
     margin-left: 2rem;
     width: 90%
->>>>>>> 870a6639e27ee8d94f276715ce98015728c1d8b7
 }
