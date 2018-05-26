@@ -1,5 +1,24 @@
+.carousel-control-prev {
+    top: 40px;
+    left: 0;
+    background-color: lightblue;
+}
+span.carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+.carousel-control-next {
+    top: 40px;
+    right: 0;
+    background-color: lightblue;
+}
+span.carousel-control-next-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
 #carouselId{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -15,7 +34,7 @@
 }
 
 .about-me{
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
 }
 
