@@ -63,6 +63,14 @@ var projects = [{
         "id":7,
         "description":"A language interpretation recognition interface. LIRI is a cli app that can give you data for a song, movie, or your last 20 tweets."
 
+    },
+    {
+        "name": "Friend Finder",
+        "link": "https://lit-ocean-25718.herokuapp.com/",
+        "image": "https://i.pinimg.com/564x/e6/9c/d2/e69cd2c3ba906d397123a4ff91025180.jpg",
+        "technologies": "",
+        "id":8,
+        "description":"Take a quiz and find a match with this Express Node JS app on Heroku."
     }
 ]
 
